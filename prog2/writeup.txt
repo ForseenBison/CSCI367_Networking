@@ -1,0 +1,8 @@
+1. Mason Andrew
+
+2. -I don't think that the proper signal handling for disconnections is fully implemented on the server side of my code. I don't understand how the signal checking is supposed to work? Should it just be a check statement after every single send? similarly to how you should check malloc. I purposefully only implemented the check before using the data, not every send of a series of sends to the same host. 
+ - For the most part though code works pretty good. Because of disconnection handling sometimes the code loops until killed if the disconnection is at the wrong time.
+
+3. It's hard to describe testing this code as anything other then trial and error. Build a little, then tweak, build a little, test and tweak. All the way though the project in the order of: getting connections set up, command line argument processing, getting proper sending and receiving down, getting game logic rolling, checking input validation and finally worked on signal and other error handling.
+
+4. Definitely the communication between the server and the two clients and the client representing two hosts at once. It was challenging to put together the right loops and statements that block for response from the server to set up the client correctly.

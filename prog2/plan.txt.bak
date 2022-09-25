@@ -1,0 +1,12 @@
+1. The Program is going to set up a server that takes in pairs of clients and sets them up to play with eachother. the game that they're playing is a word game that will require the clients to make words out of the randomly generated set that the server provides each round. The Server will check the word against a dictionary it has and the perviously entered words, the first client to send an invald word wins the round. The game continues until a player wins 3 rounds.
+I will implament this assingment by starting with the server pairing off clients, then working on the communication between the server, and the two clients then finally all the game logic.
+
+2. I suspect that the hardest part of this program will be getting the server to pair up the clients before forking and going back to wait for more clients.
+
+3. a) The Book
+   b) Brian Hutchinson
+   c) Roomate who is also a classmate
+
+4. Geeks for Geeks trie implamentation probably, maybe something else depending on how that goes.
+
+5. Average of one hour every day for the first week, then reevaluating to see what more or less work might be neccecary. 

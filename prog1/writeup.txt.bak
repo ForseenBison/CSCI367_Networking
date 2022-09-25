@@ -1,0 +1,7 @@
+1. Mason Andrew & Asa DeWeese
+
+2. Code that's not working: None as far as we can tell based on our testing of the code.
+
+3. First we started with the game logic, setting it up so that the game was fully functional with the server and one client. Doing this made game testing much easier as there was less extra code that could cause things to go wrong. Once we had the game running we implamented the forking process that would allow the server to handle more then one client. By doing this we limited the sections of code that could be causing issues. We tested concurrent users by having lots of tmux windows open, one with the server, and two to four clients running all at different stages of the game.
+
+4. The most challenging part of this assignment was having our game logic loop on both the client and server not get out of phase with each other. This was difficult because of some fence-posting issues caused by the use of the guesses variable as the value that controlled the while loops running the game. 

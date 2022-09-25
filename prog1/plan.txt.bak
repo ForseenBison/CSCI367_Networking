@@ -1,0 +1,14 @@
+Mason Andrew, Asa DeWeese
+Program 1, Checkpoint 4/12
+Plan
+
+1. We are implementing the hangman game with using the client server model. There server will host the game and send the word in progress to the client where the user on the client side will input thier guess to send back to the server. Server checks it out, updates the string in progress and then sends it back to the client and updates the number of guesses so far. This continues until the user runs out of guesses or guesses the right word. The server will be capable of handling more then one user by forking a process for each incoming user.
+
+2. Neither my partner or I have pretty any experience with computer networks so we belive that anything involving the nitty gritty of network programming with be a struggle for us.
+
+3. Stack Overflow
+   The textbook
+   Brain Hutchinson
+   CS Mentors
+
+4. We're roomates so whenever we have time. We've set the self goal of hitting this project for an average of an hour a day till it's complete or we feel that we need to re-visit and attack it more aggressivly.

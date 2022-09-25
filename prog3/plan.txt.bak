@@ -1,0 +1,9 @@
+1. We are being instructed 3 files, two clients, and one server which will together be used to create a chat platform. The participent client should be able to connect, disconnect, and send messages at will, the observer will associate itself with a participent and then recive messages from the server and display them to the user. Both clients will work with the server to do username validation, input validation. The server will recive messages from participents and send them to the appropriate observers and manage the connections to the server.
+
+2. We belive that working with the select call on the server will be the most difficult part of this program, if only because neither of us have any experience in using it. Setting up the server to work with two kinds of clients and then using select to get it to do what we want may be difficult also.
+
+3. a) TA office hours
+   b) man pages/the book
+   c) Fellow peers working on this lab
+
+4. We plan to utilize the alloted partner work time that takes place during normal class time, but if that isn't we'll discuss when else we can meet up to work on the project.
